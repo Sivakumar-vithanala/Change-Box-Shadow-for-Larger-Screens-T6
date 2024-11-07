@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightyellow;
+    border: 3px solid;
+    height: 80px;
+    margin: 10px;
+}
+@media screen and (width<600px) {
+    div{
+        display: inline-block;
+        border: 2px solid;
+        padding: 15px;
+        margin: 10px;
+        box-shadow: 6px 6px 10px rgb(174, 43, 226);
+    }   
+}
+@media screen and (width>600px) {
+    div{
+        display: inline-block;
+        border: 2px solid;
+        padding: 15px;
+        margin: 10px;
+        /* box-shadow: 6px 6px 10px rgb(174, 43, 226); */
+    }   
+}
